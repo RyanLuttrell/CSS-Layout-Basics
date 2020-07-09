@@ -135,6 +135,7 @@ figcaption {
 	position: absolute;
 	top: -15px;
 	right: -15px;
+	z-index: 2;
 }
 
 /* ================================= 
@@ -142,6 +143,19 @@ figcaption {
 ==================================== */
 
 @media (min-width: 769px) {
+
+	body {
+		padding-top: 68px;
+	}
+
+	.main-header {
+		position: fixed;
+		background-color: #fff;
+		box-shadow: 0 1px 4px rgba(0,0,0,.4);
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+	}
 
 	.container {
 		width: 90%;
@@ -198,3 +212,5 @@ figcaption {
 	}
 
 }
+
+
