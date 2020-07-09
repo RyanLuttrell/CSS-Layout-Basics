@@ -143,11 +143,12 @@ img {
 		margin: auto;
 	}
 
-	.name {
+	.name, 
+	.col{
 		float: left;
 	}
 
-	main-nav {
+	.main-nav {
 		float: right;
 	}
 
@@ -163,24 +164,22 @@ img {
 	.col {
 		padding: 20px 20px;
 	}
-	.primary {
-		width: 50%;
-		float: left;
-	}
-	
-	.secondary {
+	.primary, .secondary {
 		width: 50%;
 		float: left;
 	}
 	
 	.tertiary {
-		width: 100%;
 		float: right;
 	}
 
 }
 
 @media (min-width: 1025px) {
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
 	.primary {
 		width: 40%;
 		float: left;
